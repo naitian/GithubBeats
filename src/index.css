@@ -1,0 +1,22 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+    background-color: #E14848;
+    color: white;
+}
+
+.wrapper {
+    padding: 30px;
+}
+
+p {
+    line-height: 2;
+}
+
+li {
+    line-height: 2;
+}
+

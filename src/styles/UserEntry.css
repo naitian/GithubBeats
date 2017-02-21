@@ -1,0 +1,51 @@
+form {
+    width: 60%;
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+input {
+    flex: none;
+    width: calc(100% - 36px);
+    height: 30;
+    padding: 10px;
+    font-size: 32px;
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    margin: 5px;
+}
+
+input[type='submit'] {
+    width: calc(100% - 10px);
+    transition: background-color 0.2s linear, color 0.2s linear;
+}
+
+input[type='submit']:hover {
+    background-color: #FFF;
+    color: #E14848;
+}
+
+input.date-entry {
+    flex: 1;
+}
+
+input[type='text']::-webkit-input-placeholder {
+    color: #ff8c8c;
+}
+
+input[type='text']:-moz-placeholder { /* Firefox 18- */
+    color: #ff8c8c;  
+}
+
+input[type='text']::-moz-placeholder {  /* Firefox 19+ */
+    color: #ff8c8c;  
+}
+
+input[type='text']:-ms-input-placeholder {  
+    color: #ff8c8c;  
+}
